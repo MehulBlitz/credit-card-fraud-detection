@@ -30,6 +30,7 @@ from __future__ import annotations
 
 import json
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 import joblib
@@ -324,6 +325,7 @@ def main(argv: list[str] | None = None) -> None:
     plot_score_distribution(y_test, proba_best)
 
     metrics = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "winner_model": winner,
         "split": "temporal 80/20 by Time",
         "train_rows": int(len(X_train)),
