@@ -1,4 +1,5 @@
 {
+  "generated_at": "2026-09-28T15:25:52.138569+00:00",
   "winner_model": "RandomForest + class weights",
   "split": "temporal 80/20 by Time",
   "train_rows": 227846,
@@ -143,6 +144,5 @@
       "fn": 20,
       "tp": 55
     }
-  },
-  "generated_at": "2026-09-28T14:56:34.088447+00:00"
+  }
 }
