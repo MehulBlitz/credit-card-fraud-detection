@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T15:25:52.138569+00:00",
+  "generated_at": "2026-10-02T11:34:16.254706+00:00",
   "winner_model": "RandomForest + class weights",
   "split": "temporal 80/20 by Time",
   "train_rows": 227846,
